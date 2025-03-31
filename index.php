@@ -155,7 +155,7 @@
             echo "<h3>Imagem Comprimida! 🎉</h3>";
             //echo "<img src='data:image/jpeg;base64," . $compressedBase64 . "' alt='Imagem Comprimida'>";
             echo "<p><strong>Base64 Comprimida:</strong></p>";
-            echo "<textarea readonly>" . $compressedBase64 . "</textarea>";
+            echo "<textarea readonly>data:image/jpeg;base64," . $compressedBase64 . "</textarea>";
             echo "</div>";
         } else {
             echo "<p style='color: #e74c3c;'>Erro ao processar a imagem. Tente novamente! 😞</p>";
